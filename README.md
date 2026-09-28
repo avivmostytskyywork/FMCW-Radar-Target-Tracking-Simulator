@@ -8,9 +8,9 @@ This project bridges theoretical electromagnetics and algorithmic software devel
 
 * **FMCW Physics Engine:** Simulates linear frequency-modulated continuous wave (FMCW) transmission and the superposition of electromagnetic waves across a multi-antenna phased-array receiver.
 * **DSP Pipeline:** Implements a full digital signal processing chain, utilizing 2D-FFT for precise Range-Doppler extraction and 1D Spatial FFT for Angle of Arrival (AoA) estimation.
-* **Adaptive Target Detection:** Features a vectorized 2D CA-CFAR (Cell Averaging Constant False Alarm Rate) algorithm integrated with morphological clustering (binary dilation and connected components) to detect multiple dynamic targets in high-clutter environments[cite: 6].
-* **Tracking & Data Association:** Incorporates a custom Batch Kalman Filter leveraging NumPy tensor operations for parallel state estimation, paired with a Greedy Nearest Neighbor (GNN) engine for real-time kinematic data association[cite: 6].
-* **Interactive Engineering Dashboard:** An event-driven GUI built with Tkinter and Matplotlib, featuring a live PPI spatial sweep (radar screen), Range-Doppler heatmaps, precision target markers, and a real-time kinematic tracking table[cite: 6].
+* **Adaptive Target Detection:** Features a vectorized 2D CA-CFAR (Cell Averaging Constant False Alarm Rate) algorithm integrated with morphological clustering (binary dilation and connected components) to detect multiple dynamic targets in high-clutter environments.
+* **Tracking & Data Association:** Incorporates a custom Batch Kalman Filter leveraging NumPy tensor operations for parallel state estimation, paired with a Greedy Nearest Neighbor (GNN) engine for real-time kinematic data association.
+* **Interactive Engineering Dashboard:** An event-driven GUI built with Tkinter and Matplotlib, featuring a live PPI spatial sweep (radar screen), Range-Doppler heatmaps, precision target markers, and a real-time kinematic tracking table.
 
 ## Repository Structure
 
@@ -29,7 +29,7 @@ FMCW-Radar-Simulator/
 ## Installation & Usage
 
 1) Clone the repository:
-    git clone https://github.com/avivmostytskyywork/FMCW-Radar-Simulator.git
+    git clone https://github.com/avivmostytskyywork/FMCW-Radar-Target-Tracking-Simulator.git
     cd FMCW-Radar-Simulator
 
 2) Install dependencies:
