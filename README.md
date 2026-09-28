@@ -12,20 +12,6 @@ This project bridges theoretical electromagnetics and algorithmic software devel
 * **Tracking & Data Association:** Incorporates a custom Batch Kalman Filter leveraging NumPy tensor operations for parallel state estimation, paired with a Greedy Nearest Neighbor (GNN) engine for real-time kinematic data association.
 * **Interactive Engineering Dashboard:** An event-driven GUI built with Tkinter and Matplotlib, featuring a live PPI spatial sweep (radar screen), Range-Doppler heatmaps, precision target markers, and a real-time kinematic tracking table.
 
-## Repository Structure
-
-The project follows a modular software architecture, strictly separating the physics backend from the graphical frontend:
-
-
-FMCW-Radar-Simulator/
-├── radar_engine.py     # The physical backend (Radar, Transmitter, Receiver, Mixer, Targets)
-├── tracking_engine.py  # DSP, CA-CFAR, Batch Kalman Filter, and Data Association
-├── main.py             # The frontend (Tkinter GUI and Event Handlers)
-├── requirements.txt    # Project dependencies
-├── .gitignore          # Git exclusion rules (e.g., __pycache__/)
-└── assets/             # Directory for screenshots and documentation visuals
-
-
 ## Installation & Usage
 
 1) Clone the repository:
@@ -52,7 +38,7 @@ Visualizes the radar's Field of View (FOV) with a dynamic rotational sweep and a
 ## Engineering & Academic Context
 This project was developed as a portfolio asset for hardware, logic design, and algorithm engineering.
 
-It translates core academic concepts—such as wave physics, algorithm efficiency, and object-oriented Python—into a practical EDA and radar processing application.
+It translates core academic concepts such as wave physics, algorithm efficiency, and object-oriented Python—into a practical EDA and radar processing application.
 
 By managing memory allocations efficiently with NumPy and structuring state management cleanly, it demonstrates the intersection of software engineering and physical hardware design.
 
